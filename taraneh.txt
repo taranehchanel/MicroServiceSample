@@ -1,0 +1,27 @@
+nuget: https://www.nuget.org/packages/MongoDB.Driver
+source: https://github.com/mongodb/mongo-csharp-driver
+
+repo: https://github.com/mongodb/mongo-efcore-provider
+source: https://www.nuget.org/packages/MongoDB.EntityFrameworkCore/
+
+dockerp pull mongo:6
+docker run -p 9090:27017 mongo:6
+docker run -p <host-port>:<container-port>
+
+
+https://github.com/basharovi/MongoDB-CRUD-with-.Net-Core/blob/main/MongoDB_CRUD/Models/Customer.cs	
+https://www.geeksforgeeks.org/how-to-run-mongodb-as-a-docker-container/
+
+
+https://mongodb.github.io/mongo-csharp-driver/2.8/reference/driver/connecting/
+https://github.com/buvinghausen/MongoDB.HealthCheck/blob/master/sample/MongoDB.HealthCheck.Sample/Program.cs
+https://stackoverflow.com/questions/75768995/are-there-any-possible-ways-to-use-mongodb-with-ef-core-using-appdbcontext-now
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-8.0
+https://antondevtips.com/blog/getting-started-with-mongodb-in-ef-core
+
+
+
+for future :
+
+https://www.freecodecamp.org/news/using-entity-framework-core-with-mongodb/
+https://medium.com/@anyanwuraphaelc/deploying-a-net-application-with-mongodb-on-docker-a-step-by-step-guide-10513d2d98e2?source=login--------------------------google_one_tap-----------#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImU4NjNmZTI5MmZhMmEyOTY3Y2Q3NTUxYzQyYTEyMTFiY2FjNTUwNzEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTI2MDIzNjY0NjExNTE2NTU2MDciLCJlbWFpbCI6InRhcmFuZWgubmVzYXJpQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3MzExMTE1OTMsIm5hbWUiOiJUYXJhbmVoIE5lc2FyaSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NMaUhUd19FTU41ekdWb2MtNnV2dUdOZXYwOUpaRXVtZ0xRMTA0ak9PZUVtU2RJOFJfTEpRPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IlRhcmFuZWgiLCJmYW1pbHlfbmFtZSI6Ik5lc2FyaSIsImlhdCI6MTczMTExMTg5MywiZXhwIjoxNzMxMTE1NDkzLCJqdGkiOiIxZDdlYzVjMGE1NTM0NjJmNWM2ZTIyZTEyZjliOGRhNzAxOTMwMWU4In0.MAPcPDc_HPVx349TDqkb7dcEdvLqlKIhsRaYBGGLH9omnkfX6OpvLImHA8AzoNAPGKU-1-ksrLF950jyeH9dyJUW9BHVe-7pbA2MiZk34sd0qyTO3qnVgxY2CN1PGjpLe1881ilnPaedVqaBdWqXMM1y80Eh8iKsLlW7hWpktstaGDapRVqqA45FvXXOYBNDLSptJ_JU_kPsXWOYFvkLNj_tMfAjO1VMy1kX-50CcaMRS6hax5_qK1SWyU2SEGA-jEoPK512w2svApKVKuunSNsZXT7eIP6CSFieI6EurQCkevM5obIJOYl__SPPpgg6o6RLfQM-yQxqFbE_0dViKg
